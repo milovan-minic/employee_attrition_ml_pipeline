@@ -29,7 +29,7 @@ This ML pipeline predicts which training candidates are likely to accept job off
 ### Step 1: Environment Setup
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone git@github.com:milovan-minic/employee_attrition_ml_pipeline.git
 cd employee_attrition_ml_pipeline
 
 # Create virtual environment
