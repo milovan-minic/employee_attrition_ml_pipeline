@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.pickle
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories (outputs, not raw input)
+data/out/
+results/
+models/
+
+# CatBoost and ML training artifacts
+catboost_info/
+
+# Notebook outputs (if any)
+notebooks/data/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# VSCode and IDE
+.vscode/
+.idea/
+
+# Test outputs
+test_pipeline_output/
+
+# Production reports
+production_report.json
+
+# Ignore all .json model metadata and .pkl model files
+models/*.json
+models/*.pkl
+
+# Allow keeping empty dirs
+!.gitkeep
