@@ -1,6 +1,17 @@
 # Job Change Prediction - Production-Ready ML Pipeline
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/milovan-minic/employee_attrition_ml_pipeline/ci.yml?branch=main)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/actions)
+[![Code Style: PEP8](https://img.shields.io/badge/code%20style-PEP8-brightgreen.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![Coverage Status](https://codecov.io/gh/milovan-minic/employee_attrition_ml_pipeline/branch/main/graph/badge.svg)](https://codecov.io/gh/milovan-minic/employee_attrition_ml_pipeline)
+[![Docs](https://img.shields.io/badge/docs-online-blue.svg)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/wiki)
+[![GitHub stars](https://img.shields.io/github/stars/milovan-minic/employee_attrition_ml_pipeline.svg)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/milovan-minic/employee_attrition_ml_pipeline.svg)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/milovan-minic/employee_attrition_ml_pipeline.svg)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/issues?q=is%3Aissue+is%3Aclosed)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/milovan-minic/employee_attrition_ml_pipeline/pulls)
+[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey.svg)](#)
 
 ## 📋 Table of Contents
 1. [Overview](#overview)
@@ -572,7 +583,7 @@ Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/employee_attrition_ml_pipeline.git
+   git clone https://github.com/<milovan-minic>/employee_attrition_ml_pipeline.git
    cd employee_attrition_ml_pipeline
    ```
 
