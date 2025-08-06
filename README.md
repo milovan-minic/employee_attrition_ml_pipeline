@@ -1,5 +1,7 @@
 # Job Change Prediction - Production-Ready ML Pipeline
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## 📋 Table of Contents
 1. [Overview](#overview)
 2. [Installation & Setup](#installation--setup)
@@ -536,3 +538,102 @@ drift_data = monitor.detect_data_drift(current_data, baseline_data)
 ---
 
 *This pipeline is production-ready and demonstrates enterprise-grade ML engineering practices.* 
+
+## 🤝 How to Contribute
+
+I welcome contributions to improve this project! To get started:
+
+1. **Fork the repository** on GitHub.
+2. **Clone your fork** to your local machine.
+3. **Create a new branch** for your feature or bugfix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make your changes** and add clear, descriptive commit messages.
+5. **Test your changes** locally to ensure nothing is broken.
+6. **Push your branch** to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+7. **Open a Pull Request** on GitHub, describing your changes and referencing any related issues.
+
+**Contribution Guidelines:**
+- Follow PEP8 and project code style.
+- Add or update docstrings and comments as needed.
+- Update or add tests if applicable.
+- Ensure your code passes all pre-flight checks (`python check_environment.py`).
+- Be respectful and constructive in code reviews and discussions.
+
+---
+
+## 🛠️ How to Clone and Run Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/<your-username>/employee_attrition_ml_pipeline.git
+   cd employee_attrition_ml_pipeline
+   ```
+
+2. **Create and activate a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Prepare your data:**
+   - Place your data files in `data/in/`:
+     - `train.csv` (required)
+     - `test.csv` (required)
+     - `submission.csv` (optional, template)
+
+5. **Run the environment check:**
+   ```bash
+   python check_environment.py
+   ```
+
+6. **Run the pipeline:**
+   - For the full production pipeline:
+     ```bash
+     python main.py
+     ```
+   - For a fast test run:
+     ```bash
+     python main_fast.py
+     ```
+   - For production deployment and monitoring:
+     ```bash
+     python deploy_production.py
+     ```
+
+7. **Check results:**
+   - Outputs will be in the `results/`, `models/`, and `data/out/` directories.
+
+---
+
+## 📜 Code of Conduct
+
+I am committed to fostering a welcoming and inclusive environment for all contributors. Please:
+- Be respectful and considerate in all interactions.
+- Provide constructive feedback and support.
+- Report any inappropriate behavior to the project maintainers.
+
+For more details, see [Contributor Covenant](https://www.contributor-covenant.org/).
+
+---
+
+## 🐞 Issue Reporting
+
+If you encounter a bug, have a feature request, or want to suggest an improvement:
+1. **Search existing issues** to avoid duplicates.
+2. **Open a new issue** with a clear title and detailed description.
+3. **Include steps to reproduce**, expected behavior, and screenshots/logs if helpful.
+4. **Label your issue** appropriately (bug, enhancement, question, etc.).
+
+I'd appreciate your feedback and will respond as soon as possible! 
