@@ -1,9 +1,9 @@
 # Job Change Prediction - Presentation Notes
-## Technical Interview Presentation (10-15 minutes)
+## Technical Interview Presentation
 
 ---
 
-## 1. INTRODUCTION (2 minutes)
+## 1. INTRODUCTION
 
 ### Problem Statement
 - **Business Goal**: Predict which training candidates are likely to accept job offers
@@ -18,7 +18,7 @@
 
 ---
 
-## 2. EXPLORATORY DATA ANALYSIS (3 minutes)
+## 2. EXPLORATORY DATA ANALYSIS
 
 ### Key Findings
 - **Class Imbalance**: 74.9% not looking, 25.1% looking for change
@@ -35,7 +35,7 @@
 
 ---
 
-## 3. FEATURE ENGINEERING STRATEGY (2 minutes)
+## 3. FEATURE ENGINEERING STRATEGY
 
 ### Preprocessing Pipeline
 1. **Missing Value Imputation**
@@ -60,7 +60,7 @@
 
 ---
 
-## 4. MODEL SELECTION & PERFORMANCE (3 minutes)
+## 4. MODEL SELECTION & PERFORMANCE
 
 ### Algorithms Tested
 1. **Random Forest** - CV AUC: 0.9169
@@ -82,7 +82,7 @@
 
 ---
 
-## 5. FEATURE IMPORTANCE & BUSINESS INSIGHTS (2 minutes)
+## 5. FEATURE IMPORTANCE & BUSINESS INSIGHTS
 
 ### Top 5 Most Important Features
 1. **city** - Importance: 30.15 (Geographic location is strongest predictor)
@@ -100,7 +100,7 @@
 
 ---
 
-## 6. RESULTS & CONCLUSIONS (3 minutes)
+## 6. RESULTS & CONCLUSIONS
 
 ### Model Performance Summary
 - **Best Model**: CatBoost with 0.9232 CV AUC
