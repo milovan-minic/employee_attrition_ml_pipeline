@@ -30,6 +30,20 @@ jobs:
     - name: Run tests with coverage
       run: |
         pytest --cov=src --cov-report=xml
+    - name: Build docs
+      run: |
+        mkdir -p docs/_build
+        cp -r docs/* docs/_build/ || true
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report
+        path: coverage.xml
+    - name: Upload docs
+      uses: actions/upload-artifact@v3
+      with:
+        name: documentation
+        path: docs/_build/
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
